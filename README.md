@@ -26,15 +26,6 @@ You need to know about rancher & cnrancher companies's products & projects. You 
 - [k3os](https://github.com/rancher/k3os) - K3OS is a Linux distribution designed to remove as much as possible OS maintenance in a Kubernetes cluster. It is specifically designed to only have what is need to run k3s.
 - [submariner](https://github.com/submariner-io/submariner) - Submariner is a tool built to connect overlay networks of different Kubernetes clusters.
 
-## Basic skills
-
-Good Golang programming ability and Linux related basic operation and maintenance ability are the basic requirements.
-
-**Frameworks & Utilities:**
-- [rancher/dapper](https://github.com/rancher/dapper) - Dapper is a tool to wrap any existing build tool in an consistent environment. This allows people to build your software from source or modify it without worrying about setting up a build environment.
-- [rancher/go-skel](https://github.com/rancher/go-skel) - Skeleton for Rancher Go Microservices.
-- [gnu/make](https://www.cl.cam.ac.uk/teaching/0910/UnixTools/make.pdf) - The make utility automatically determines which pieces of a large program need to be recompiled, and issues commands to recompile them.
-
 ## Let's begin
 
 We will set aside 2 weeks for you to finish the following contents. Please keep your demo environment for our inspection.
@@ -51,10 +42,7 @@ We will set aside 2 weeks for you to finish the following contents. Please keep 
 1. Use RKE deploy a Kubernetes cluster (1 master and 2 nodes).
 2. Run a WordPress application in Kubernetes and expose the service using ingress.
 3. Add a dynamic NFS provisioner to your Kubernetes cluster, run an application using NFS storage.
-4. Use [kubernetes/client-go](https://github.com/kubernetes/client-go) to CRUD Kubernetes Deployment.
-5. Extend the Kubernetes API with CustomResourceDefinitions.
-6. Refer to [kubernetes/sample-controller](https://github.com/kubernetes/sample-controller) write a controller watch CRD resource and print the logs.
-7. Refer to [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) write a controller watch CRD resource and print the logs.
+
 
 **Rancher Related**
 
